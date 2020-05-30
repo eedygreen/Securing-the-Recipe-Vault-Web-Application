@@ -1,0 +1,21 @@
+a. Infrastructure as Code Scanners
+Terrascan, 
+Chef Inspec
+cfn lint
+cfripper
+Cloudsploit
+Regula
+
+b. AMI or Container Security Scanners
+Aquasec
+Chivy
+Clair
+Anchore
+Twistlock
+Sysdig
+
+c. AWS Environment Scanners
+AWS Config
+AWS inspector
+Security Hub
+GuardDuty

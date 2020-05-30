@@ -1,0 +1,34 @@
+Remediation Plan
+
+1. Remediation of ssh bruteforce
+
+    1. The IAM policy 
+    The policy should follow the List privilege principle. Define the role specific for each \
+    IAM user/instance. This will limit the scope/action a user/instance can perform on the system/network.
+    In any case that the IAM acess key is exposed, the user/instance will inherit only limited action,
+    and there will be minimal damage.
+
+    2. Security Group (Rule) for inbound connection. 
+    SSH Inbound Rule should be configured on the Security Group to only allow connection from an 
+    instance within the security group.
+
+    3. Server-Client Authentication
+    Setup Server-Client Authentication, this will ensure only users who successfully proved who they are
+    will be given connection access. 
+
+    4. Network Controls - Subnet and Network Blocks
+    Sources of connection should be explicit configured with specific range. Use my Ip only, i.e
+    192.168.10.226/32
+
+2. Remediation Plan for S3 Bucket Secret Recipe
+
+    1. Bucket Policy & Access Point
+    Bucket Policy and Access Point should be used to grant access to only authorised users
+    These two can block IAM users and restrict VPC, thereby isolating specific users and Virtual Private Cloud. 
+    Doing this will ensure the integrity of the file stored on the S3 Bucket.
+
+    2. Enryption of the File while on-premise and Enable Server-Side Encryption with AWS-KMS
+    Encypting the file "secret_recipe.txt" before uploading it unto the Bucket would prevent the confidentiality
+    of the sensitive data.
+
+  

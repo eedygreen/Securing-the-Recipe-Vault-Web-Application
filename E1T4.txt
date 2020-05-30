@@ -1,0 +1,9 @@
+Poor Security Practices
+
+1. Absence of Least Privilege caused Excessive Permisions on S3 Bucket
+The IAM role assigned to S3 Bucket give full access to all resources.
+The is not the best practice as it does not followed the principle of Least Previlige.
+
+2. Secuirty Group Ip Protocol & Network Cidr Block
+The Web Server allows all type of connetions from all Protocols and IP addresses.
+The Security Group does not addresses the connection from only secure trusted Groups of Ip addresses and Protocols.

@@ -1,0 +1,22 @@
+
+1. WAF - Web Application Firewall
+There is need to add WAF in front of the Application-Load-Balancer, in order to reduce the 
+internet facing attack targeting the Web Application Server.
+
+2. Creating VPC endpoint for the s3 Bucket while the IAM policy is not complying with least privilege
+does not prevent unauthorised access.
+While IAM policy limit the scope (what can/cannot and should/should-not) be done by a user, a VPC endpoint 
+create private access to services, in other word, a secret route to particaular service(s) using 
+the endpoint policy.
+Note: The default endpoint policy give full access and does not overide the IAM policy.
+Hence, it does not prevent the unauthorised access if the IAM policy role assigned to a user permits.
+
+3. S3 Bucket Default Encryption
+The Default Encryption once enabled, all new objects added to the bucket are encrypted. The files added
+prior to enabling the encryption will not be encrypted.
+
+4. The Security Group of the original cloudformation template enabled multiple inbound connections
+on the Application Web Server, and also grant full access to S3 Secret-Recipe and Free-Recipe via IAM
+policy. If applied, the secret-recipe will be accessible by unauthorised user, possibility of remote 
+connection via ssh to Application Web Server from any user, injection via port 80, netbios exposure
+and, ... 

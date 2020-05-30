@@ -1,0 +1,15 @@
+Recoomendations
+1. All Secuirty Groups should deny all inbound traffic and should only accept traffic assigned instances. \
+and removed all open ports (-1) exposed to internet except the required (80, 22). Reduced the cidr Block to only\
+required addresses. 0.0.0.0/0 should be removed and the subnet range should be use instead, e.g 10.2.12.0/24 \
+For a specific Instance, use "my Ip only" ip_address/32
+
+2. S3 Bucket (Free_Recipe) "Public Acess Write" should be removed and Server-Side Encryption should be enabled with AWS-KMS.
+use the ACL to specify and streamline who has access to Read the Bucket Objects.
+
+3. S3 BUcket (Secret_Recipe) Public Access Read/Write should be removed, Enbale Server-Side Encryption and Versioning.
+
+4. Update EC2 Instance, (Os) Vulnerabilty of root provilige escalation, XML injection and other security patches should be fixed with update.
+
+5. Set Password Policy, assigned Password Complexity/Restritions to reduce the use of simple password and reused of previous password /
+that can allow an unauthorised personnel to easily gain access.
