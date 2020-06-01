@@ -6,6 +6,15 @@ force attacks are used to gain unauthorized access to your instance by guessing 
 GurdDuty detected ssh bruteforce attack on instance-id i-0fab66ab523772a93.
 
 3. GuardDuty as a Threat Intelligence application detect the Bruteforce attack on port 22 by
-simply monitoring aws resources, in this case the EC2 instance "i-0fab66ab523772a93" against the 
-target host "10.192.10.226". It actively enagegd on continuous monitoring and analyzing 
-workload event data found in CloudTrail, Logs, DNS, and VPC Flow Logs.
+simply monitoring traffic, in this case the EC2 instance "i-0fab66ab523772a93" against the 
+target host "10.192.10.226". It actively enagegd on continuous monitoring and analyzing workload event 
+data found in CloudTrail, Logs, DNS, and VPC Flow Logs.
+
+GuardDuty detected the attack from EC2 instance "i-0fab66ab523772a93" while monitoring the ssh port 22.
+The findings revealed an ssh connection from unknown port 39852, i.e the EC2 instance "i-0fab66ab523772a93" 
+has made an unauthorized ssh connection from local port 39852 to the target host "10.192.10.226" port 22. 
+GuardDuty analyzed the VPC flow logs of the target host "10.192.10.226" and detected there was no 
+supression rule "connection" for the port 39852. Gaurduty also analyzed the constant password probing 
+for the ssh connection on target host "10.192.10.226". The numerous attempt futher proved that the
+instance "i-0fab66ab523772a93" tried multiple combinations of incorrect login detailes, otherwise 
+known as Bruteforce attack.
