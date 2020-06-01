@@ -1,21 +1,22 @@
 a. Infrastructure as Code Scanners
-Terrascan, 
-Chef Inspec
-cfn lint
-cfripper
-Cloudsploit
-Regula
+Tools                   |   Vulnerabilies
+Terrascan,              |   Server-Side Encryption, Public Exposure
+cfn lint                |   Invalide reference object, invalid mapping, invalid format, missing properties, ...
+cfripper                |   Missing Egress Rule, Hard coded RDS Password Rule, IAM Role Wildcard Action On Policy Rule
+Cloudsploit             |   Servers exposed publicly to the internet, Unencrypted data storage, Lack of least-privilege policies, Poor password policies or missing MFA, Misconfigured backup and restore settings, Data exposure and privilege escalation. 
+Regula                  |   Non Compliance policies (e.g excessive administrative rights)
 
 b. AMI or Container Security Scanners
-Aquasec
-Chivy
-Clair
-Anchore
-Twistlock
-Sysdig
+Tools                   |   Vulnerabilies
+Aquasec                 |   Code injection, Zero Day, privilege escalation
+Clair                   |   LIST, GET, POST, PUT, DELETE
+Anchore                 |   Insecure communication, wrong TLS configuration
+Twistlock               |   DDOS, Privilege Excalation, Remote Code Execution (RCE), User Namspaces and Rottloess Container
+Sysdig                  |   Container Breakout, Image Authenticity, Credentials and secrete exposure
 
 c. AWS Environment Scanners
-AWS Config
-AWS inspector
-Security Hub
-GuardDuty
+Tools                   |   Vulnerabilies
+AWS Config              |   Insecure configuration (e.g 0.0.0./3389, Secuirty Groups allowing RDP to all Ip addresses)
+AWS inspector           |   Remote Root login enabled, Accessbility of EC2 from internet
+Security Hub            |   Unencrypted Storage (AWS CIS rules, PCI DSS rules)
+GuardDuty               |   Injection, Bruteforce, Misconfigured Security Groups, ...
