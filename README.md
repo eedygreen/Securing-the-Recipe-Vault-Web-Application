@@ -2,7 +2,8 @@
 
 **Content**
 
-**This Project consist of Three Parts**
+**This Project consist of four Parts; Design, Detecting, Recommend, and Implement & Monitoring**
+
 
 ## [Design The DevSecOps Pipeline](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application/blob/master/DevSecOpsPipeline.png)
 
