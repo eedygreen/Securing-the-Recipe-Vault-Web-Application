@@ -5,15 +5,15 @@
 **This Project consist of four Parts; Design, Detecting, Recommend, and Implement & Monitoring**
 
 
-## [Design The DevSecOps Pipeline](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application/blob/master/DevSecOpsPipeline.png)
+* [Design The DevSecOps Pipeline](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application/blob/master/DevSecOpsPipeline.png)
 
-## [Detecting The Security Loopholes](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application/blob/master/E1T4.txt)
+* [Detecting The Security Loopholes](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application/blob/master/E1T4.txt)
 
-## [Recommending Security Best Practices](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application/blob/master/E2T2.txt)
+* [Recommending Security Best Practices](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application/blob/master/E2T2.txt)
 
-## [Security Compliance with AWS Config](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application/blob/master/E2T2_config.png)
+* [Security Compliance with AWS Config](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application/blob/master/E2T2_config.png)
 
-## [Detecting Bruteforce Attack with AWS GaurdDuty]()
+* [Detecting Bruteforce Attack with AWS GaurdDuty]()
 
 
 
@@ -87,10 +87,10 @@ Haven Implement the Recommendations, AWS Config rules and the compliance improve
 
 
 
-**Summary**
+**[Summary](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application)**
 
 The project was based on infrastructure security from development environment to production using the DevSecOps approach and monitoring the infrastructure security compliance on AWS platform
 
 
 
-[Securing The Recipe Vault Web Application](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application)
+[Securing The Recipe Vault Web Application]
