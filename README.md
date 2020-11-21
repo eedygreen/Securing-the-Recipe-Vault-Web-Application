@@ -22,7 +22,7 @@
 The Security Design uses a DevSecOps approach other than the usual method of scanning codes, Security scanning begins from IDLE environment and warns the Software Engineer of potential vulnerability at the time of writing the code.
 
 ![](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application/blob/master/DevSecOpsPipeline.png)
-
+[Fig 1.1: DevSecOps Pipeline](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application/blob/master/DevSecOpsPipeline.png)
 <br><br/>
 
 
@@ -40,7 +40,7 @@ After observing the Infrastructure, below are the findings
 | The Security Group does not addresses the connection from only secure trusted Groups of Ip addresses and Protocols. |
 
 <details class="details-reset details-overlay details-overlay-dark" id="jumpto-line-details-dialog" style="box-sizing: border-box; display: block;"><summary data-hotkey="l" aria-label="Jump to line" role="button" style="box-sizing: border-box; display: list-item; cursor: pointer; list-style: none;"></summary></details>
-
+Table 1.1: Detecting Secuirty loopholes
 <br><br/>
 ## Recommending Security Best Practices
 
@@ -60,20 +60,20 @@ My recommendations
 | 5. Set Password Policy, assigned Password Complexity/Restrictions to reduce the use of simple password and reused of previous password hat can allow an unauthorized personnel to easily gain access. |
 
 <details class="details-reset details-overlay details-overlay-dark" id="jumpto-line-details-dialog" style="box-sizing: border-box; display: block;"><summary data-hotkey="l" aria-label="Jump to line" role="button" style="box-sizing: border-box; display: list-item; cursor: pointer; list-style: none;"></summary></details>
-
+Table 1.2: Recommending Security Best Practices
 <br><br/>
 ## Security Compliance with AWS Config
 
  The initial configuration before applying recommendation and best practices.
 
 ![](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application/blob/master/E2T2_config.png)
-
+[Fig 1.2: Security Compliance with AWS Config](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application/blob/master/E2T2_config.png)
 <br><br/>
 
 ## Detecting Bruteforce Attack with GuardDuty
 
 ![](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application/blob/master/E3T1_guardduty.png)
-
+[Fig 1.3: Detecting Bruteforce Attack with Gaurdduty](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application/blob/master/E3T1_guardduty.png)
 <br><br/>
 
 ## GuardDuty Findings - After implementing the recommendations following the best practices
@@ -81,7 +81,7 @@ My recommendations
 AWS Config rules and the compliance.
 
 ![](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application/blob/master/E4T3_config.png)
-
+[Fig 1.4: Guardduty Findings](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application/blob/master/E4T3_config.png)
 <br><br/>
 
 ### [Summary](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application)
