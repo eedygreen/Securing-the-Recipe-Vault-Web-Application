@@ -16,15 +16,14 @@
 * [Detecting Bruteforce Attack with AWS GaurdDuty]()
 
 
-
+<br><br/>
 **Design The DevSecOps Pipeline**
 
 The Security Design uses a DevSecOps approach other than the usual method of scanning codes, Security scanning begins from IDLE environment and warns the Software Engineer of potential vulnerability at the time of writing the code.
 
 ![](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application/blob/master/DevSecOpsPipeline.png)
 
-**DevSecOps Pipeline**
-
+<br><br/>
 
 
 **Detecting The Security Loopholes**
@@ -41,6 +40,8 @@ After observing the Infrastructure, below are the findings
 | The Security Group does not addresses the connection from only secure trusted Groups of Ip addresses and Protocols. |
 
 <details class="details-reset details-overlay details-overlay-dark" id="jumpto-line-details-dialog" style="box-sizing: border-box; display: block;"><summary data-hotkey="l" aria-label="Jump to line" role="button" style="box-sizing: border-box; display: list-item; cursor: pointer; list-style: none;"></summary></details>
+
+<br><br/>
 
 **Recommending Security Best Practices**
 
@@ -61,35 +62,33 @@ My recommendations
 
 <details class="details-reset details-overlay details-overlay-dark" id="jumpto-line-details-dialog" style="box-sizing: border-box; display: block;"><summary data-hotkey="l" aria-label="Jump to line" role="button" style="box-sizing: border-box; display: list-item; cursor: pointer; list-style: none;"></summary></details>
 
+<br><br/>
+
 **Security Compliance with AWS Config**
 
- Initial Configuration before applying recommendation and best practices
+ The initial configuration before applying recommendation and best practices.
 
 ![](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application/blob/master/E2T2_config.png)
 
-**AWS Config**
-
-
+<br><br/>
 
 **Detecting Bruteforce Attack with GuardDuty**
 
 ![](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application/blob/master/E3T1_guardduty.png)
 
-**GuardDuty Findings**
+<br><br/>
 
+**GuardDuty Findings** - After implementing the recommendations following the best practices
 
-
-**Implementing The Recommendations**
-
-Haven Implement the Recommendations, AWS Config rules and the compliance improved
+AWS Config rules and the compliance.
 
 ![](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application/blob/master/E4T3_config.png)
 
-
+<br><br/>
 
 **[Summary](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application)**
 
-The project was based on infrastructure security from development environment to production using the DevSecOps approach and monitoring the infrastructure security compliance on AWS platform
+The project was based on infrastructure security from development environment to production using the DevSecOps approach and monitoring the infrastructure security compliance on AWS platform.
 
 
 
