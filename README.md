@@ -42,9 +42,10 @@ After observing the Infrastructure, below are the findings
 <details class="details-reset details-overlay details-overlay-dark" id="jumpto-line-details-dialog" style="box-sizing: border-box; display: block;"><summary data-hotkey="l" aria-label="Jump to line" role="button" style="box-sizing: border-box; display: list-item; cursor: pointer; list-style: none;"></summary></details>
 Table 1.1: Detecting Secuirty loopholes
 <br><br/>
+
 ## Recommending Security Best Practices
 
-My recommendations 
+**My recommendations**
 
 | 1. All Security Groups should deny all inbound traffic and should only accept traffic assigned instances. |
 | ------------------------------------------------------------ |
@@ -62,6 +63,7 @@ My recommendations
 <details class="details-reset details-overlay details-overlay-dark" id="jumpto-line-details-dialog" style="box-sizing: border-box; display: block;"><summary data-hotkey="l" aria-label="Jump to line" role="button" style="box-sizing: border-box; display: list-item; cursor: pointer; list-style: none;"></summary></details>
 Table 1.2: Recommending Security Best Practices
 <br><br/>
+
 ## Security Compliance with AWS Config
 
  The initial configuration before applying recommendation and best practices.
