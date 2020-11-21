@@ -17,7 +17,7 @@
 
 
 <br><br/>
-**Design The DevSecOps Pipeline**
+## Design The DevSecOps Pipeline
 
 The Security Design uses a DevSecOps approach other than the usual method of scanning codes, Security scanning begins from IDLE environment and warns the Software Engineer of potential vulnerability at the time of writing the code.
 
@@ -26,7 +26,7 @@ The Security Design uses a DevSecOps approach other than the usual method of sca
 <br><br/>
 
 
-**Detecting The Security Loopholes**
+## Detecting The Security Loopholes
 
 After observing the Infrastructure, below are the findings
 
@@ -42,8 +42,7 @@ After observing the Infrastructure, below are the findings
 <details class="details-reset details-overlay details-overlay-dark" id="jumpto-line-details-dialog" style="box-sizing: border-box; display: block;"><summary data-hotkey="l" aria-label="Jump to line" role="button" style="box-sizing: border-box; display: list-item; cursor: pointer; list-style: none;"></summary></details>
 
 <br><br/>
-
-**Recommending Security Best Practices**
+## Recommending Security Best Practices
 
 My recommendations 
 
@@ -63,8 +62,7 @@ My recommendations
 <details class="details-reset details-overlay details-overlay-dark" id="jumpto-line-details-dialog" style="box-sizing: border-box; display: block;"><summary data-hotkey="l" aria-label="Jump to line" role="button" style="box-sizing: border-box; display: list-item; cursor: pointer; list-style: none;"></summary></details>
 
 <br><br/>
-
-**Security Compliance with AWS Config**
+## Security Compliance with AWS Config
 
  The initial configuration before applying recommendation and best practices.
 
@@ -72,13 +70,13 @@ My recommendations
 
 <br><br/>
 
-**Detecting Bruteforce Attack with GuardDuty**
+## Detecting Bruteforce Attack with GuardDuty
 
 ![](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application/blob/master/E3T1_guardduty.png)
 
 <br><br/>
 
-**GuardDuty Findings** - After implementing the recommendations following the best practices
+## GuardDuty Findings - After implementing the recommendations following the best practices
 
 AWS Config rules and the compliance.
 
@@ -86,7 +84,7 @@ AWS Config rules and the compliance.
 
 <br><br/>
 
-**[Summary](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application)**
+### [Summary](https://github.com/eedygreen/Securing-the-Recipe-Vault-Web-Application)
 
 The project was based on infrastructure security from development environment to production using the DevSecOps approach and monitoring the infrastructure security compliance on AWS platform.
 
